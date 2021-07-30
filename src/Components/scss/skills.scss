@@ -1,0 +1,13 @@
+.html{
+    animation: 2s grow forwards;
+    animation-duration: 3s;
+}
+
+@keyframes grow {
+    from{
+        width: 0px
+    }
+    to{
+        width: 800px;
+    }
+}

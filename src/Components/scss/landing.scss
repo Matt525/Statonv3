@@ -1,5 +1,5 @@
 #landingImage{
-    background: #1abc9c;
+    background: #282c34;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,11 +11,6 @@
 }
 
 
-img{
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 200px;
-    
-}
 
 .landing-bottom{
     height: 200px;
@@ -23,6 +18,8 @@ img{
 }
 
 
+
+// medium devices
 
 @media (min-width: 768px) {
 h1{
@@ -43,10 +40,10 @@ h1{
         margin-top: 0.5em!important;
     }
 
+    // small devices
     @media (max-width: 596px) {
         .landing-bottom { 
             display: none!important;
         }
     }
 
-    
