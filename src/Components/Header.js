@@ -11,8 +11,8 @@ export default function Header() {
     useEffect(() => {
         window.addEventListener('scroll', ()=>{
             let scrolled = window.pageYOffset > 10;
-            let about = window.pageYOffset > 700 && window.pageYOffset < 1700;
-            let skills = window.pageYOffset > 1758 && window.pageYOffset < 2558;
+            let about = window.pageYOffset > 500 && window.pageYOffset < 1700;
+            let skills = window.pageYOffset > 1700 && window.pageYOffset < 2558;
             let projects = window.pageYOffset > 2558;
             let nav = $('#headerNav');
             let img = $('.headerImage');
@@ -40,27 +40,27 @@ export default function Header() {
     return (
         <div>
              <nav id="headerNav" class="navbar navbar-expand-lg navbar-dark header">
-                                <div class="container-fluid" style={{marginRight: '35em',}}>
+                                <div class="container">
                                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                                             <span class="navbar-toggler-icon"></span>
                                             </button>
-                                            <div style={{marginLeft: '35em', overflowWrap: 'none', textOverflow: 'none',}}>
+                                            <div>
                                             <img onClick={()=>{window.location = "/"}} className="headerImage" style={{maxWidth: '50px', display: 'none'}} src={logo} />
-                                            <h2 className="headerLogo">MATTHEW</h2>
+                                            <h2 className="headerLogo"><span style={{color: 'rgb(26, 188, 156)', fontSize: '45px'}}>M</span>ATTHEW</h2>
                                             </div>
                                     <div class="collapse navbar-collapse container justify-content-end" id="navbarNav">
                                             <ul class="navbar-nav">
-                                                <li class="nav-item">
-                                                <a class="nav-link" aria-current="page" href="#">Intro</a>
+                                                <li class="nav-item" style={{width: '60px'}}>
+                                                <a class="nav-link text-white" aria-current="page" href="#">Me</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                <a class="nav-link" href="#">Me</a>
+                                                <a class="nav-link text-white" href="#">Skills</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                <a class="nav-link" href="#">Skills</a>
+                                                <a class="nav-link text-white" href="#">Projects</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Projects</a>
+                                                <a class="nav-link text-white" href="#" tabindex="-1" aria-disabled="true">Hire</a>
                                                 </li>
                                             </ul>
                                     </div>

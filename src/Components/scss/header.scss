@@ -2,10 +2,14 @@ $base-color: #96a1ac !important;
 $hover-color: rgb(94, 94, 94);
 
 .header{
-    width: 100vw;
+    position: relative;
+    z-index: 10!important;
+    flex-direction: column;
     font-family: 'Quicksand', sans-serif!important;
-    background: #282c34!important;
+    background: transparent!important;
     color: #fff!important;
+    border-bottom: 0.25px solid rgba(177, 177, 177, 0.108);
+
         .nav-item{margin: 1em!important;}
             height: 70px;
             transition: all 0.5s;
@@ -14,12 +18,16 @@ $hover-color: rgb(94, 94, 94);
             font-size: 1.05em;
             height: 6em;
             -webkit-text-size-adjust: 100%;
-    .li:hover{
+    li:hover{
         cursor: pointer;
 
     }
 }
 
+
+#navbarNav > ul > li > a:hover { 
+    color: rgb(26, 188, 156)!important
+}
 
 // Added on nav scroll
 .scrolledNav{
@@ -31,6 +39,7 @@ $hover-color: rgb(94, 94, 94);
     color: rgb(26, 188, 156)!important;
     border: 2px solid rgb(26, 188, 156)!important;
     border-radius: 8px;
+
 }
 
 
@@ -57,4 +66,3 @@ $hover-color: rgb(94, 94, 94);
 img{
     cursor: pointer;
 }
-
