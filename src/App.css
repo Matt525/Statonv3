@@ -1,5 +1,12 @@
 html body { 
   min-width: 100vw!important;
+  background: url(./Components/photoSource/body-bg.png);
+}
+section{ 
+  height: 50vh;
+
+
+  flex-direction: column;
 }
 .App {
   text-align: center;
@@ -49,3 +56,5 @@ html body {
     background-size: cover;
     background-repeat: no-repeat;
   }
+
+  

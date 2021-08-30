@@ -1,73 +1,81 @@
 body {
-    font-family: Arial, Helvetica, sans-serif!important;
+    font-family: quicksand, sans-serif!important;
     line-height: 26px;
     font-size: 15px;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     color: #777777;
     // background: url('https://technext.github.io/satner/img/body-bg.png') no-repeat center;
-    background: #0b0d0e;
+    background: #fff;
     
 }
 
-#root > div > div.bg-custom.text-dark > section > div > div > div.offset-lg-1.col-lg-5 > div{
-    text-align: left!important;
-    font-family: quicksand, sans-serif;
+.btn{ 
+    color: #fff;
+    height: 45px;
+}
+.btn:hover{
+    color: #000;
 }
 
-.html{
-    max-width: 100vw;
-    height: 30px!important;
-    background: linear-gradient(to right, #555, #6d92ca, #23b897);
-    opacity: 1;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    width: 0px; 
-    animation: 2s grow forwards;
-    animation-duration: 3s;
-}
+// #root > div > div.bg-custom.text-dark > section > div > div > div.offset-lg-1.col-lg-5 > div{
+//     text-align: left!important;
+//     font-family: quicksand, sans-serif;
+// }
 
-.logo{ 
-    background: #555;
-    height: 30px;
-    position: relative;
-    z-index: 1;
-    animation: 2s grow forwards;
-    animation-duration: 3s;
-}
+// .html{
+//     max-width: 100vw;
+//     height: 30px!important;
+//     background: linear-gradient(to right, #555, #6d92ca, #23b897);
+//     opacity: 1;
+//     border-top-right-radius: 10px;
+//     border-bottom-right-radius: 10px;
+//     width: 0px; 
+//     animation: 2s grow forwards;
+//     animation-duration: 3s;
+// }
 
-.label{ 
-    color: #eee;
-    animation: 2s makeVisible forwards;
-    animation-duration: 3s;
+// .logo{ 
+//     background: #555;
+//     height: 30px;
+//     position: relative;
+//     z-index: 1;
+//     animation: 2s grow forwards;
+//     animation-duration: 3s;
+// }
+
+// .label{ 
+//     color: #eee;
+//     animation: 2s makeVisible forwards;
+//     animation-duration: 3s;
     
-}
-.grow{
-    display: visible;
-    animation: 2s grow forwards;
-    animation-duration: 3s;
-}
+// }
+// .grow{
+//     display: visible;
+//     animation: 2s grow forwards;
+//     animation-duration: 3s;
+// }
 
-@keyframes grow {
-    from{
-        width: 0px;
-        display: none;
+// @keyframes grow {
+//     from{
+//         width: 0px;
+//         display: none;
         
-    }
-    to{
-        width: 500px;
-        display: visible;
-    }
-}
+//     }
+//     to{
+//         width: 500px;
+//         display: visible;
+//     }
+// }
 
-@keyframes makeVisible {
-    from { 
-        display: none;
-    }
-    to{ 
-        display: visible;
-    }
-}
+// @keyframes makeVisible {
+//     from { 
+//         display: none;
+//     }
+//     to{ 
+//         display: visible;
+//     }
+// }
 
 .btn{
     font-family: quicksand , sans-serif;
@@ -77,4 +85,3 @@ body {
     border: 1px solid rgb(26, 188, 156)!important;
     color: #000;
 }
-

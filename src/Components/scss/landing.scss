@@ -1,17 +1,19 @@
 .section-wrapper{
-    background:linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg");
+    // background:linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg");
+    // background: #fff;
+    // background: url("../photoSource/charleston-2.jpg");
+    // background: url('../photoSource/body-bg.png');
+    background: linear-gradient(rgba(236, 236, 236, 0.95), rgba(243, 243, 243, 0.95)), url(https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     overflow-y: none;
 }
 #landingFull{
-    // background: #282c34;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 78vh;
     color: #fff;
     font-family: 'Quicksand', sans-serif!important;
     z-index: 10;
@@ -19,32 +21,24 @@
 
 
 
-.landing-bottom{
-    height: 200px;
-    width: 100vw;
-}
-
-
-
 // medium devices
 
 @media (min-width: 768px) {
-h1{
-    font-size: 100px;
-    display: flex;
-    align-items: flex-start;
-    background: -webkit-linear-gradient(#fff, #6e6e6e);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+        h1{
+            font-size: 4em;
+            color: #000;
+            letter-spacing: 0.10em;
+            // background: -webkit-linear-gradient(#fff, #6e6e6e);
+            // -webkit-background-clip: text;
+            // -webkit-text-fill-color: transparent;
+        }
+
+        h3{
+            font-size: 30px;
+            letter-spacing: 0.10em;
+        }
+
 }
-
-h3{
-    font-size: 30px;
-}
-
-}
-
-
     .hello{
         font-weight: 700!important;
         font-size: 118px;

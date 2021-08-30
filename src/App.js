@@ -1,6 +1,6 @@
 import './App.css';
 import Landing from './Components/Landing';
-import About from './Components/About';
+import History from './Components/History';
 import Skills from './Components/Skills'
 function App() {
 
@@ -8,14 +8,8 @@ function App() {
     <div className="App">
         <Landing id="landing" />
         <Skills />
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-    </div>
+        <History />
+      </div>
   );
 }
 

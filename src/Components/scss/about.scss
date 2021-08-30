@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: quicksand, sans-serif!important;
     margin: 0%;
     color: #fff;
     background: #202731;
@@ -44,4 +44,12 @@ body {
     display: block;
     padding-bottom: 170px;
     height: 50vh!important;
+  }
+
+  .about_img { 
+    max-width: 500px!important;
+  }
+
+  .bg-custom{
+    background:#f3f5ff !important
   }
