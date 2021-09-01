@@ -12,11 +12,10 @@ export default function History() {
         });
       });    
     return (
-        <div class="experience" id="experience">
+        <div class="experience pt-0">
             <div class="container">
-                <header class="section-header text-center wow zoomIn">
-                    <p className="h2 mb-4">My Resume</p>
-                    <h2 className="mb-5 " style={{fontFamily: 'Montserrat, sans-serif', fontSize: '45px', fontWeight: '700'}}>Working Experience</h2>
+                <header class="text-center">
+                    <h2 className="mb-5 pt-0" style={{fontFamily: 'Montserrat, sans-serif', fontSize: '45px', fontWeight: '700'}}>Working Experience</h2>
                 </header>
                 <div class="timeline">
                     <div class="timeline-item left wow slideInLeft"  style={{textAlign: 'left'}}>

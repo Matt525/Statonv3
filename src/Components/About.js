@@ -1,65 +1,41 @@
 import React from 'react'
 import './scss/about.scss';
-import aboutImage from './photoSource/facebookPic.jpg'
+import aboutImage from './photoSource/profile_pic.jpg'
 import togetherImage from './photoSource/profile_pic.jpg'
 
 export default function About() {
     return (
-		<div className="bg-custom text-left d-flex align-items-center justify-content-center" style={{height: '70vh', textAlign: 'left', color: '#000'}}>
-		<section class="about_area section_gap">
+		<div className="bg-custom">
+		<section class="about d-flex justify-content-center align-items-center mx-5">
 
 					<div class="row">
-						<div class="col-lg-5 d-flex justify-content-end align-items-center">
+						<div class="col-lg-5 d-flex justify-content-center align-items-center">
 							
-								{/* <img className="about_img" src={aboutImage} /> */}
-								<div class="bd-example about_img">
-									<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-											<ol class="carousel-indicators">
-											<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-											<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-											<li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-											</ol>
-										<div class="carousel-inner">
-										<div class="carousel-item active">
-											<img src={aboutImage} class="d-block w-100" alt="..." />
-											<div class="carousel-caption d-none d-sm-block">
-											<h5>New York</h5>
-											<p>Atop of the rockefeller plasa in NYC.</p>
-											</div>
-										</div>
-										<div class="carousel-item active">
-											<img src={togetherImage} class="d-block w-100" alt="..." />
-											<div class="carousel-caption d-none d-sm-block">
-											<h5>Ohio</h5>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-											</div>
-										</div>
-										<div class="carousel-item active">
-											<img src="..." class="d-block w-100" alt="..." />
-											<div class="carousel-caption d-none d-sm-block">
-											<h5>Third slide label</h5>
-											<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-											</div>
-										</div>
-										</div>
-								</div>
+								{/* <img className="about_img d-sm-none h-50" src={aboutImage} /> */}
+								
+							
 						</div>
-							
-					</div>
 
 						<div class="offset-lg-1 col-lg-5 d-flex align-items-center">
-							<div class="main_title text-left">
-								<h2 style={{textAlign: 'left!important', fontWeight: '800', fontSize: '4em'}}>Let Me <br />
+							
+							<div class="main_title" style={{textAlign: 'left'}}>
+								<h2 className="d-sm-" style={{fontWeight: '400', fontSize: '3em'}}>Let Me <br />
 									Introduce
 									myself</h2>
-								<p>
-									Whose given. Were gathered. There first subdue greater. Bearing you Whales heaven 
-									midst their. Beast creepeth. Fish days.
+								<p>I am a 29 year old aspiring front end engineer with a power drive and self motivation to bring the customers ideas to life. 
+									With my positive, forward thinking mindset and attention to every detail, I only strive to deliver what can be my best performance 
+									with every project that I do. With that said, I am always learning and welcome the opportunity to work with you and continue to grow
+									my real work knowledge so that I can make the user & customer experience better with each new project. 
 								</p>
+								<p className="h5 my-4" style={{fontWeight: 'bold'}}>MY DESIGN TOOLS</p>
 								<p>
-									Is give may shall likeness made yielding spirit a itself together created after sea 
-									is in beast beginning signs open god you're gathering whose gathered cattle let. 
-									Creature whales fruit unto meat the life beginning all in under give two.
+									Being that my highest skills lye in pure development and building, my design tools aren't as broad as my development tools
+									Currently, I use design tools such as Figma, Photoshop and Canva to bring ideas to life. 
+								</p>
+								<p className="h5 my-4" style={{fontWeight: 'bold'}}>DEVELOPMENT TOOLS</p>
+								<p>
+									The development tools I use daily are Nodejs, ReactJS, Bootstrap, ExpressJS, Material-UI, SASS&CSS, HTML as well as many other commonly used
+									developer tools. Please feel free to download my CV below for a list of all of the tools I use and have used. 
 								</p>
 								<button type="button" class="btn btn-custom btn-dark btn-md border-0" style={{background: '#1abc9c'}}>Download CV</button>
 							</div>

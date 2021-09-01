@@ -1,8 +1,4 @@
 .section-wrapper{
-    // background:linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg");
-    // background: #fff;
-    // background: url("../photoSource/charleston-2.jpg");
-    // background: url('../photoSource/body-bg.png');
     background: linear-gradient(rgba(236, 236, 236, 0.95), rgba(243, 243, 243, 0.95)), url(https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -13,11 +9,30 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 78vh;
-    color: #fff;
+    align-items: center;
+    height: 64vh;
     font-family: 'Quicksand', sans-serif!important;
-    z-index: 10;
 }
+@media (max-width: 586px) {
+
+    h1{ 
+    font-size: 50px!important;
+}
+h3{ 
+    font-size: 25px!important;
+}
+
+.image{
+    display: none!important;
+    width: 600px!important;
+    overflow: hidden;
+    position: relative;
+    z-index: -1!important;
+    transform: translate(150px, -250px)!important;
+}
+
+}
+
 
 
 
@@ -25,6 +40,7 @@
 
 @media (min-width: 768px) {
         h1{
+            width: 100%;
             font-size: 4em;
             color: #000;
             letter-spacing: 0.10em;
