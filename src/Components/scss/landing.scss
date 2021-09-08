@@ -1,5 +1,5 @@
-.section-wrapper{
-    background: linear-gradient(rgba(236, 236, 236, 0.95), rgba(243, 243, 243, 0.95)), url(https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg);
+#section-wrapper{
+    background: url(../photoSource/landingMe.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,10 +10,26 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 64vh;
+    height: 100vh;
     font-family: 'Quicksand', sans-serif!important;
+    padding-bottom: 15em;
 }
-@media (max-width: 586px) {
+
+.text-focus-in{animation:text-focus-in 1s cubic-bezier(.55,.085,.68,.53) both}
+@keyframes text-focus-in{0%{filter:blur(12px);opacity:0}100%{filter:blur(0);opacity:1}}
+
+
+ 
+
+
+
+
+// MOBILE MEDIA QUERIES VVVVV
+
+
+
+// SMALL devices
+@media (max-width: 700px) {
 
     h1{ 
     font-size: 50px!important;
@@ -30,6 +46,13 @@ h3{
     z-index: -1!important;
     transform: translate(150px, -250px)!important;
 }
+#section-wrapper{
+    background: linear-gradient(rgba(75, 75, 75, 0.144), rgba(105, 105, 105, 0.075)), url(../photoSource/landingMe.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    overflow-y: none;
+}
 
 }
 
@@ -44,20 +67,17 @@ h3{
             font-size: 4em;
             color: #000;
             letter-spacing: 0.10em;
-            // background: -webkit-linear-gradient(#fff, #6e6e6e);
-            // -webkit-background-clip: text;
-            // -webkit-text-fill-color: transparent;
         }
 
         h3{
-            font-size: 30px;
+            font-size: 50px;
             letter-spacing: 0.10em;
         }
 
 }
     .hello{
         font-weight: 700!important;
-        font-size: 118px;
+        font-size: 180px;
     }
 
     // small devices

@@ -15,7 +15,7 @@ export default function History() {
         <div class="experience pt-0">
             <div class="container">
                 <header class="text-center">
-                    <h2 className="mb-5 pt-0" style={{fontFamily: 'Montserrat, sans-serif', fontSize: '45px', fontWeight: '700'}}>Working Experience</h2>
+                    <h2 className="my-5 pt-0" style={{fontSize: '40px', fontWeight: '700'}}>Working Experience</h2>
                 </header>
                 <div class="timeline">
                     <div class="timeline-item left wow slideInLeft"  style={{textAlign: 'left'}}>

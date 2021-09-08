@@ -11,9 +11,9 @@ export default function Header() {
     useEffect(() => {
         window.addEventListener('scroll', ()=>{
             let scrolled = window.pageYOffset > 10;
-            let about = window.pageYOffset > 500 && window.pageYOffset < 1700;
-            let skills = window.pageYOffset > 1700 && window.pageYOffset < 2558;
-            let projects = window.pageYOffset > 2558;
+            let skills = window.pageYOffset > 500 && window.pageYOffset < 1700;
+            let me = window.pageYOffset > 1700 && window.pageYOffset < 3200;
+            let projects = window.pageYOffset > 3200 && window.pageYOffset < 4200;
             let nav = $('#headerNav');
             let img = $('.headerImage');
             let matthew = $('.headerLogo');
@@ -22,17 +22,21 @@ export default function Header() {
                 img.show();
                 matthew.hide();
                 nav.addClass('scrolledNav');
+                $('#navbarNav > ul > li > a').addClass('colored');
             }else{
                 nav.removeClass('show');
                 img.hide(100);
                 matthew.show(100);
                 nav.removeClass('scrolledNav');
+                $('#navbarNav > ul > li > a').removeClass('colored');
             }
             //Single Page animation breaks
-            if(about){$('#navbarNav li:nth-child(1) > a').addClass('activeSection');}
+            if(skills){$('#navbarNav li:nth-child(1) > a').addClass('activeSection');}
             else{$('#navbarNav li:nth-child(1) > a').removeClass('activeSection')}
-            if(skills){$('#navbarNav li:nth-child(2) > a').addClass('activeSection')}
+            if(me){$('#navbarNav li:nth-child(2) > a').addClass('activeSection')}
             else{$('#navbarNav li:nth-child(2) > a').removeClass('activeSection')}
+            if(projects){$('#navbarNav li:nth-child(3) > a').addClass('activeSection')}
+            else{$('#navbarNav li:nth-child(3) > a').removeClass('activeSection')}
         })
             
         });
@@ -51,16 +55,16 @@ export default function Header() {
                                     <div class="collapse navbar-collapse container justify-content-end" id="navbarNav">
                                             <ul class="navbar-nav">
                                                 <li class="nav-item" style={{width: '60px'}}>
-                                                <a class="nav-link text-dark text-bold" aria-current="page" href="#">Me</a>
+                                                <a class="nav-link text-dark text-bold" aria-current="page" href="#">skills</a>
+                                                </li>
+                                                <li class="nav-item" style={{width: '60px'}}>
+                                                <a class="nav-link text-dark" href="#">me</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                <a class="nav-link text-dark" href="#">Skills</a>
+                                                <a class="nav-link text-dark" href="#">projects</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                <a class="nav-link text-dark" href="#">Projects</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                <a class="nav-link text-dark" href="#" tabindex="-1" aria-disabled="true">Hire</a>
+                                                <a class="nav-link text-dark" href="#" tabindex="-1" aria-disabled="true">hire</a>
                                                 </li>
                                             </ul>
                                     </div>
