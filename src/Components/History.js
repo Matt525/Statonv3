@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react'
 import './scss/History.scss'
-import aos from 'aos';
 import 'aos/dist/aos.css';
 import Aos from 'aos';
 
@@ -8,7 +7,8 @@ import Aos from 'aos';
 export default function History() {
     useEffect(()=>{
         Aos.init({
-            duration: 1000
+            duration: 1000,
+            easing: "ease-in-out"
         });
       });    
     return (
