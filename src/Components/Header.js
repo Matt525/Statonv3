@@ -2,12 +2,9 @@ import { useEffect } from 'react';
 import React from 'react'
 import $ from 'jquery';
 import './scss/header.scss'
-import landingImage from './photoSource/rounded.png';
 import logo from './photoSource/M.png';
 export default function Header() {
 
-
-// Use to change navbar upon scroll. Possible full screen landing and upon scroll background fill. 
     useEffect(() => {
         window.addEventListener('scroll', ()=>{
             let scrolled = window.pageYOffset > 10;
@@ -54,11 +51,11 @@ export default function Header() {
                                             </div>
                                     <div class="collapse navbar-collapse container justify-content-end" id="navbarNav">
                                             <ul class="navbar-nav">
-                                                <li class="nav-item" style={{width: '60px'}}>
+                                                <li class="nav-item">
                                                 <a class="nav-link text-dark text-bold" aria-current="page" href="#">skills</a>
                                                 </li>
-                                                <li class="nav-item" style={{width: '60px'}}>
-                                                <a class="nav-link text-dark" href="#">me</a>
+                                                <li class="nav-item">
+                                                <a class="nav-link text-dark px-auto" href="#">me</a>
                                                 </li>
                                                 <li class="nav-item">
                                                 <a class="nav-link text-dark" href="#">projects</a>

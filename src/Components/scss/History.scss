@@ -1,19 +1,23 @@
 .experience {
     position: relative;
     padding: 10em 0 15px 0;
+    
 }
 *, ::after, ::before {
     box-sizing: border-box;
+    
 }
 
 .experience .timeline {
     position: relative;
     width: 100%;
+    
 }
 .experience .timeline .timeline-item.left {
     left: 0;
     padding-right: 30px;
     // margin-bottom: 10em;
+    
 }
 
 .experience .timeline .timeline-item {
@@ -21,6 +25,7 @@
     background: inherit;
     width: 50%;
     margin-bottom: 30px;
+    
 }
 
 .experience .timeline .timeline-item.right {
@@ -34,6 +39,7 @@
     background: inherit;
     width: 50%;
     margin-bottom: 30px;
+    
 }
 
 .experience .timeline::after {

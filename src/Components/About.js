@@ -43,16 +43,110 @@ export default function About() {
 									The development tools I use daily are Nodejs, ReactJS, Bootstrap, ExpressJS, Material-UI, SASS&CSS, HTML as well as many other commonly used
 									developer tools. Please feel free to download my CV below for a list of all of the tools I use and have used. 
 								</p>
-								{/* <button type="button" class="btn btn-custom btn-dark btn-md border-0" style={{background: '#1abc9c'}}>Download CV</button> */}
-								<div class="icons-container">
-                                <img className="icon" src={htmlicon} alt="alternative"/>
-                                <img className="icon" src={cssicon} alt="alternative"/>
-                                <img className="icon" src={jsicon} alt="alternative"/>
-                                <img className="icon" src={bsicon} alt="alternative"/>
-                                <img className="icon" src={psicon} alt="alternative"/>
-                                <img className="icon" src={reacticon} alt="alternative"/>
-                        
-                            </div>
+								{/* <div class="icons-container">
+										<img className="icon" src={htmlicon} alt="alternative"/>
+										<img className="icon" src={cssicon} alt="alternative"/>
+										<img className="icon" src={jsicon} alt="alternative"/>
+										<img className="icon" src={bsicon} alt="alternative"/>
+										<img className="icon" src={psicon} alt="alternative"/>
+										<img className="icon" src={reacticon} alt="alternative"/>
+                            	</div> */}
+								<div class="row g-2 g-lg-3">
+												<div class="col-auto">
+															<div class="d-flex align-items-center border rounded-pill pe-4">
+																<img
+																src="https://cube.webuildthemes.com/assets/images/logo/bootstrap.svg"
+																class="me-3"
+																alt="Bootstrap"
+																/>
+																Bootstrap 5
+															</div>
+															</div>
+															<div class="col-auto">
+															<div class="d-flex align-items-center border rounded-pill pe-4">
+																<img
+																src="https://cube.webuildthemes.com/assets/images/logo/js.svg"
+																class="me-3"
+																alt="Javascript"
+																/>
+																Javascript
+															</div>
+															</div>
+															<div class="col-auto">
+															<div class="d-flex align-items-center border rounded-pill pe-4">
+																<img
+																src="https://cube.webuildthemes.com/assets/images/logo/webpack.svg"
+																class="me-3"
+																alt="Webpack"
+																/>
+																Webpack
+															</div>
+															</div>
+															<div class="col-auto">
+															<div class="d-flex align-items-center border rounded-pill pe-4">
+																<img
+																src="https://cube.webuildthemes.com/assets/images/logo/sass.svg"
+																class="me-3"
+																alt="Saas"
+																/>
+																Sass
+															</div>
+															</div>
+															<div class="col-auto">
+															<div class="d-flex align-items-center border rounded-pill pe-4">
+																<img
+																src="https://cube.webuildthemes.com/assets/images/logo/seo.svg"
+																class="me-3"
+																alt="Seo"
+																/>{" "}
+																SEO
+															</div>
+															</div>
+															<div class="col-auto">
+															<div class="d-flex align-items-center border rounded-pill pe-4">
+																<img
+																src="https://cube.webuildthemes.com/assets/images/logo/documentation.svg"
+																class="me-3"
+																alt="Documentation"
+																/>{" "}
+																Detailed Documentation
+															</div>
+															</div>
+															<div class="col-auto">
+																<div class="d-flex align-items-center border rounded-pill pe-4">
+																	<img
+																	src="https://cube.webuildthemes.com/assets/images/logo/responsive.svg"
+																	class="me-3"
+																	alt="Documentation"
+																	/>{" "}
+																	Responsive Design
+																</div>
+															</div>
+															<div class="col-auto">
+																<div class="d-flex align-items-center border rounded-pill pe-4">
+																	<img
+																	src="https://cube.webuildthemes.com/assets/images/logo/responsive.svg"
+																	class="me-3"
+																	alt="Documentation"
+																	/>{" "}
+																	Responsive Design
+																</div>
+															</div>
+								</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 							</div>
 						</div>
 					</div>

@@ -8,7 +8,8 @@ export default function History() {
     useEffect(()=>{
         Aos.init({
             duration: 1000,
-            easing: "ease-in-out"
+            easing: "ease-in-out",
+            once: true
         });
       });    
     return (

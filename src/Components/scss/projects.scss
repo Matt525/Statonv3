@@ -10,3 +10,18 @@
     -moz-transition: transform 200ms ease-in-out!important;
     
 }
+
+.header-text { 
+    font-size: 50px;
+    font-weight: bolder;
+    height: auto;
+}
+
+@media (max-width: 576px) {
+    .header{ 
+        font-size: 40px;
+    }
+    .lead{ 
+        display: none;
+    }
+}

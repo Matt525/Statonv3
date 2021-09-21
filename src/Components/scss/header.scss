@@ -9,15 +9,16 @@ $hover-color: rgb(94, 94, 94);
     // background: #20232a!important;
     background: transparent; 
     border-bottom: 0.25px solid rgba(177, 177, 177, 0.108);
+    height: 70px;
+    transition: all 0.5s;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    line-height: 1.5;
+    font-size: 1.10em;
+    height: 6em;
+    -webkit-text-size-adjust: 100%;
 
         .nav-item{margin: 1em!important;}
-            height: 70px;
-            transition: all 0.5s;
-            font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-            line-height: 1.5;
-            font-size: 1.10em;
-            height: 6em;
-            -webkit-text-size-adjust: 100%;
+
     li:hover{
         cursor: pointer;
 

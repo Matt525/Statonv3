@@ -8,11 +8,11 @@ export default function Projects() {
         <div className="main-wrapper">
             <div class="container">
                         <header class="text-center mx-5 pt-5">
-                            <h2 style={{fontSize: '50px', fontWeight: '700'}}>My Projects</h2>
+                            <h2 className="header-text">My Projects</h2>
                             <p className="lead">Ipsum officia consequat irure ipsum enim velit dolore veniam commodo. Tempor amet qui fugiat sint Lorem tempor. Amet aliquip laboris nostrud magna occaecat enim exercitation.</p>
                         </header>
 
-                        <section className="d-flex flex-lg-row flex-sm-column justify-content-center align-items-center">
+                        <section className="d-flex flex-lg-row flex-column justify-content-center align-items-center">
                                 <div class=" m-3" data-aos="fade-up">
                                         <div class="p-item view overlay rounded z-depth-1">
                                                 <img src="https://mdbcdn.b-cdn.net/img/Photos/Others/images/58.jpg" class="img-fluid" alt="Sample project image"/>
