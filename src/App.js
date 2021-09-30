@@ -5,13 +5,15 @@ import Skills from './Components/Skills';
 import About from './Components/About';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
+
+
 function App() {
 
   return (
     <div className="App">
         <Landing id="landing" />
-        <Skills />
         <About />
+        <Skills />
         <History />
         <Projects />
         <Contact />

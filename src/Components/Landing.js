@@ -1,5 +1,3 @@
-import React, { useEffect } from 'react'
-import $ from 'jquery';
 import '../App.css';
 import './scss/landing.scss'
 import Header from './Header';
@@ -20,8 +18,7 @@ export default function Landing(props) {
                             <h3 className="text-dark hello-sub" style={{textAlign: 'left'}}>A <span style={{color: '#4792b7', fontWeight: 'bold'}}><span>F</span><span>r</span><span>o</span>nt-End</span> Web Engineer</h3>
                         </div>
                         <div className="w-25 d-flex align-items-center justify-content-center">
-                           
-                            {/* <img className="image d-sm-none d-lg-block" style={{width: '840px', transform: 'translateY(-150px)'}} src={landingImage} /> */}
+                        
                                 
                         </div>
                 </section>

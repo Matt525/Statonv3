@@ -55,7 +55,7 @@ export default function Header() {
                                                 <a class="nav-link text-dark text-bold" aria-current="page" href="#">skills</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                <a class="nav-link text-dark px-auto" href="#">me</a>
+                                                <a class="nav-link text-dark px-3" href="#">me</a>
                                                 </li>
                                                 <li class="nav-item">
                                                 <a class="nav-link text-dark" href="#">projects</a>

@@ -1,15 +1,6 @@
 import React from 'react'
 import './scss/about.scss';
-import aboutImage from './photoSource/leftImage.png'
-import togetherImage from './photoSource/profile_pic.jpg'
-import psicon from './photoSource/details-icon-photoshop.png'
-import bsicon from './photoSource/details-icon-bootstrap.png'
-import cssicon from './photoSource/details-icon-css.png'
-import jsicon from './photoSource/details-icon-javascript.png'
-import htmlicon from './photoSource/details-icon-html.png'
-import reacticon from './photoSource/react.svg'
 import 'aos/dist/aos.css';
-import Aos from 'aos';
 
 export default function About() {
     return (
@@ -43,14 +34,6 @@ export default function About() {
 									The development tools I use daily are Nodejs, ReactJS, Bootstrap, ExpressJS, Material-UI, SASS&CSS, HTML as well as many other commonly used
 									developer tools. Please feel free to download my CV below for a list of all of the tools I use and have used. 
 								</p>
-								{/* <div class="icons-container">
-										<img className="icon" src={htmlicon} alt="alternative"/>
-										<img className="icon" src={cssicon} alt="alternative"/>
-										<img className="icon" src={jsicon} alt="alternative"/>
-										<img className="icon" src={bsicon} alt="alternative"/>
-										<img className="icon" src={psicon} alt="alternative"/>
-										<img className="icon" src={reacticon} alt="alternative"/>
-                            	</div> */}
 								<div class="row g-2 g-lg-3">
 												<div class="col-auto">
 															<div class="d-flex align-items-center border rounded-pill pe-4">
@@ -128,7 +111,7 @@ export default function About() {
 																	src="https://cube.webuildthemes.com/assets/images/logo/responsive.svg"
 																	class="me-3"
 																	alt="Documentation"
-																	/>{" "}
+																	/>
 																	Responsive Design
 																</div>
 															</div>

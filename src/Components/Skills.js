@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react'
 import './scss/skill.scss';
-import $ from 'jquery';
 import 'aos/dist/aos.css';
 import Aos from 'aos';
 
@@ -19,7 +18,7 @@ export default function Skills() {
                                                 <div class="container">
                                                         <div class="intro">
                                                         <header class="text-center my-5 pt-0">
-                                                            <h2 className="" style={{fontSize: '40px', fontWeight: '700'}}>Offered Services</h2>
+                                                            <h2 className="" style={{fontSize: '40px', fontWeight: '700'}}>Offered Skillset</h2>
                                                             <p>Ipsum officia consequat irure ipsum enim velit dolore veniam commodo. Tempor amet qui fugiat sint Lorem tempor. Amet aliquip laboris nostrud magna occaecat enim exercitation. Irure quis dolor cupidatat Lorem in.</p>
                                                         </header>
                                                         <div class="row-specialization row" style={{textAlign: 'left'}}>
