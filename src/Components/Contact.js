@@ -1,6 +1,5 @@
 import React from 'react'
 import './scss/Contact.scss'
-import photo from './photoSource/rounded.png'
 
 export default function Contact() {
     return (

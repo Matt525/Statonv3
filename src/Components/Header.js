@@ -46,7 +46,7 @@ export default function Header() {
                                             <span class="navbar-toggler-icon"></span>
                                             </button>
                                             <div>
-                                            <img onClick={()=>{window.location = "/"}} className="headerImage" style={{maxWidth: '50px', display: 'none'}} src={logo} />
+                                            <img onClick={()=>{window.location = "/"}} className="headerImage" style={{maxWidth: '50px', display: 'none'}} src={logo} atl="Header Logo Here" />
                                             <h2 className="headerLogo"><span style={{color: '#4792b7', fontSize: '45px'}}>M</span>ATTHEW</h2>
                                             </div>
                                     <div class="collapse navbar-collapse container justify-content-end" id="navbarNav">
