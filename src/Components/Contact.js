@@ -14,20 +14,20 @@ export default function Contact() {
                                                         <form className="border-end pe-5" method="post" id="contactForm" name="contactForm" novalidate="novalidate">
                                                                 <div class="row">
                                                                     <div class="col-md-5 m-1">
-                                                                    <input className="border-top-0 border-end-0 border-start-0 p-3" type="text"  name="fname" id="fname" placeholder="First name"/>
+                                                                    <input className="border-dark rounded p-3 w-100" type="text"  name="fname" id="fname" placeholder="First name"/>
                                                                     </div>
                                                                     <div class="col-md-5 m-1"> 
-                                                                    <input className="border-top-0 border-end-0 border-start-0 p-3 " type="text" name="lname" id="lname" placeholder="Last name"/>
+                                                                    <input className="border-dark rounded p-3 w-100" type="text" name="lname" id="lname" placeholder="Last name"/>
                                                                     </div>
                                                                 </div>
                                                                 <div class="row">
-                                                                    <div class="col-md-12 m-2">
-                                                                    <input className="border-top-0 border-end-0 border-start-0 border-bottom-1 p-3 w-100" type="text" name="email" id="email" placeholder="Email"/>
+                                                                    <div class="col-md-12 m-1">
+                                                                    <input className="border-dark rounded p-3 w-100" type="text" name="email" id="email" placeholder="Email"/>
                                                                     </div>
                                                                 </div>
                                                                 <div class="row">
-                                                                    <div class="col-md-12 m-2">
-                                                                    <textarea class="border-top-0 border-end-0 border-start-0 border-bottom-1 p-3 w-100" name="message" cols="30" rows="7" placeholder="Write your message"></textarea>
+                                                                    <div class="col-md-12 m-1">
+                                                                    <textarea class="border-dark rounded p-3 w-100" name="message" cols="30" rows="7" placeholder="Write your message"></textarea>
                                                                     </div>
                                                                 </div>
                                                         <div class="row">
@@ -52,8 +52,6 @@ export default function Contact() {
                                                             <li className="my-5"><svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
                                                             <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
                                                             </svg> <h6 className="contact-list-item"> &nbsp;Charleston, South Carolina</h6></li>
-                                                            
-                                                            
                                                         </ul>
                                                 
                                                 </div>

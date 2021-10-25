@@ -5,6 +5,7 @@ import Skills from './Components/Skills';
 import About from './Components/About';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
+import ProjectGrid from './Components/ProjectGrid';
 
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
         <About />
         <Skills />
         <History />
-        <Projects />
+        <ProjectGrid />
+        {/* <Projects /> */}
         <Contact />
       </div>
   );
