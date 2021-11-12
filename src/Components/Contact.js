@@ -13,10 +13,10 @@ export default function Contact() {
                                                 <h2 className="mb-5" style={{fontSize: '60px', fontWeight: '700'}}>Reach out to me.<br/> It's easy.</h2>
                                                         <form className="border-end pe-5" method="post" id="contactForm" name="contactForm" novalidate="novalidate">
                                                                 <div class="row">
-                                                                    <div class="col-md-5 m-1">
+                                                                    <div class="m-1">
                                                                     <input className="border-dark rounded p-3 w-100" type="text"  name="fname" id="fname" placeholder="First name"/>
                                                                     </div>
-                                                                    <div class="col-md-5 m-1"> 
+                                                                    <div class="m-1"> 
                                                                     <input className="border-dark rounded p-3 w-100" type="text" name="lname" id="lname" placeholder="Last name"/>
                                                                     </div>
                                                                 </div>
