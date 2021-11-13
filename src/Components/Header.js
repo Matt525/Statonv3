@@ -52,16 +52,16 @@ export default function Header() {
                                     <div class="collapse navbar-collapse container justify-content-end" id="navbarNav">
                                             <ul class="navbar-nav">
                                                 <li class="nav-item">
-                                                <a class="nav-link text-dark text-bold" aria-current="page" href="#">skills</a>
+                                                <a class="nav-link text-dark text-bold fs-4" aria-current="page" href="#">skills</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                <a class="nav-link text-dark px-3" href="#">me</a>
+                                                <a class="nav-link text-dark px-3 fs-4" href="#">me</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                <a class="nav-link text-dark" href="#">projects</a>
+                                                <a class="nav-link text-dark fs-4" href="#">projects</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                <a class="nav-link text-dark" href="#" tabindex="-1" aria-disabled="true">hire</a>
+                                                <a class="nav-link text-dark fs-4" href="#" tabindex="-1" aria-disabled="true">hire</a>
                                                 </li>
                                             </ul>
                                     </div>

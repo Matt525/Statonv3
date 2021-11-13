@@ -9,7 +9,6 @@ export default function Projects() {
             <div class="container">
                         <header class="text-center mx-5 pt-5">
                             <h2 className="header-text">My Projects</h2>
-                            <p className="lead">Ipsum officia consequat irure ipsum enim velit dolore veniam commodo. Tempor amet qui fugiat sint Lorem tempor. Amet aliquip laboris nostrud magna occaecat enim exercitation.</p>
                         </header>
 
                         <section className="d-flex flex-lg-row flex-column justify-content-center align-items-center">
