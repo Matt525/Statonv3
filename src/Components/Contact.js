@@ -11,32 +11,32 @@ export default function Contact() {
                                             <div class="row align-items-center" style={{height: '60vh'}}>
                                                 <div class="col-lg-7 mb-5 mb-lg-0">
                                                 <h2 className="mb-5" style={{fontSize: '60px', fontWeight: '700'}}>Reach out to me.<br/> It's easy.</h2>
-                                                        <form className="border-end pe-5" method="post" id="contactForm" name="contactForm" novalidate="novalidate">
-                                                                <div class="row">
-                                                                    <div class="m-1">
-                                                                    <input className="border-dark rounded p-3 w-100" type="text"  name="fname" id="fname" placeholder="First name"/>
-                                                                    </div>
-                                                                    <div class="m-1"> 
-                                                                    <input className="border-dark rounded p-3 w-100" type="text" name="lname" id="lname" placeholder="Last name"/>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="row">
-                                                                    <div class="col-md-12 m-1">
-                                                                    <input className="border-dark rounded p-3 w-100" type="text" name="email" id="email" placeholder="Email"/>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="row">
-                                                                    <div class="col-md-12 m-1">
-                                                                    <textarea class="border-dark rounded p-3 w-100" name="message" cols="30" rows="7" placeholder="Write your message"></textarea>
-                                                                    </div>
-                                                                </div>
-                                                        <div class="row">
-                                                                <div class="col-md-12 m-2">
-                                                                <input type="submit" value="Send Message" class="btn btn-secondary rounded-0 py-2 px-4"/>
-                                                                <span class="submitting"></span>
-                                                                </div>
-                                                        </div>
-                                                        </form>
+                                                                            <form className="border-end pe-5" method="POST" data-netlify="true" name="contact">
+                                                                                    <div class="row">
+                                                                                        <div class="m-1">
+                                                                                        <input className="border-dark rounded p-3 w-100" type="text"  name="first_name" id="fname" placeholder="First name"/>
+                                                                                        </div>
+                                                                                        <div class="m-1"> 
+                                                                                        <input className="border-dark rounded p-3 w-100" type="text" name="last_name" id="lname" placeholder="Last name"/>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="row">
+                                                                                        <div class="col-md-12 m-1">
+                                                                                        <input className="border-dark rounded p-3 w-100" type="text" name="email" id="email" placeholder="Email"/>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="row">
+                                                                                        <div class="col-md-12 m-1">
+                                                                                        <textarea class="border-dark rounded p-3 w-100" name="message" cols="30" rows="7" placeholder="Write your message"></textarea>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="row">
+                                                                                            <div class="col-md-12 m-2">
+                                                                                            <button type="submit" name="submit" value="Send Message" class="btn btn-secondary rounded-0 py-2 px-4"/>
+                                                                                            <span class="submitting"></span>
+                                                                                            </div>
+                                                                                    </div>
+                                                                            </form>
                                                     <div id="form-message-warning mt-4"></div>
                                                 </div>
                                                 <div class="col-lg-4 d-none d-md-block ml-auto mx-5">
