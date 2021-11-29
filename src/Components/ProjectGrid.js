@@ -1,7 +1,8 @@
 import React from 'react'
 import './scss/projectGrid.css';
 import 'aos/dist/aos.css';
-import realestatebg from './photoSource/statonre.png'
+import realestatebg from './photoSource/realestate.png'
+import cryptobg from './photoSource/upCrypto.png'
 
 
 
@@ -24,11 +25,11 @@ export default function ProjectGrid() {
               <p className="lead w-75">RealEstate site using an api to display property data and ReactMAPGL for map data. </p>
             </div>
           </div>
-          <div data-aos="fade-up" data-aos-delay="200">
-            <div className="project bg-dark text-white m-2 rounded"></div>
+          <div data-aos="fade-up" data-aos-delay="200" >
+            <div className="project bg-dark text-white m-2 rounded" style={{background: `url(${cryptobg})`, backgroundSize: '100% 500px', backgroundRepeat: 'no-repeat'}}></div>
             <div className="ms-2">
-              <p className="display-4">Title here</p>
-              <p className="lead">Brief description goes here</p>
+              <p className="display-4">CoinCanvas</p>
+              <p className="lead">Website dedicated to tracking top crypto prices using coingecko api</p>
             </div>
           </div>
         </div>

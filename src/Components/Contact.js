@@ -11,7 +11,7 @@ export default function Contact() {
                                             <div class="row align-items-center" style={{height: '60vh'}}>
                                                 <div class="col-lg-7 mb-5 mb-lg-0">
                                                 <h2 className="mb-5" style={{fontSize: '60px', fontWeight: '700'}}>Reach out to me.<br/> It's easy.</h2>
-                                                                            <form className="border-end pe-5" method="POST" data-netlify="true" name="contact">
+                                                                            <form className="border-end pe-5" method="POST" data-netlify="true" id="contactForm" name="contact">
                                                                                     <div class="row">
                                                                                         <div class="m-1">
                                                                                         <input className="border-dark rounded p-3 w-100" type="text"  name="first_name" id="fname" placeholder="First name"/>
