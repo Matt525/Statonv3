@@ -1,7 +1,7 @@
 import React from 'react'
 import './scss/projectGrid.css';
 import 'aos/dist/aos.css';
-import realestatebg from './photoSource/statonre.png'
+import rebg from './photoSource/statonre.png';
 import cryptobg from './photoSource/upCrypto.png'
 
 
@@ -19,7 +19,7 @@ export default function ProjectGrid() {
             </header>
         <div className="text-start d-flex align-items-center justify-content-center flex-column flex-lg-row flex-md-row flex-lg-wrap">
           <div data-aos="fade-up">
-            <div onClick={()=>window.location.href=`${realEstat}`} className="project text-white m-2 rounded" style={{background: `url(${realestatebg})`}}></div>
+            <div onClick={()=>window.location.href=`${realEstat}`} className="project text-white m-2 rounded" style={{background: `url(${rebg})`}}></div>
             <div className="ms-2">
               <p className="display-4">Staton RealEstate</p>
               <p className="lead w-75">RealEstate site using an api to display property data and ReactMAPGL for map data. </p>
