@@ -1,7 +1,7 @@
 import React from 'react'
 import './scss/projectGrid.css';
 import 'aos/dist/aos.css';
-import realestatebg from './photoSource/realestate.png'
+import realestatebg from './photoSource/statonre.png'
 import cryptobg from './photoSource/upCrypto.png'
 
 
