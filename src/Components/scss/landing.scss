@@ -1,0 +1,87 @@
+#section-wrapper{
+    background: url(../photoSource/landingMe.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: none;
+}
+#landingFull{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Quicksand', sans-serif!important;
+    padding-bottom: 15em;
+}
+
+
+// MOBILE MEDIA QUERIES VVVVV
+
+
+
+// SMALL devices
+@media (max-width: 700px) {
+
+    h1{ 
+    font-size: 50px!important;
+}
+h3{ 
+    font-size: 25px!important;
+}
+
+.image{
+    display: none!important;
+    width: 600px!important;
+    overflow: hidden;
+    position: relative;
+    z-index: -1!important;
+    transform: translate(150px, -250px)!important;
+}
+#section-wrapper{
+    background: linear-gradient(rgba(75, 75, 75, 0.144), rgba(105, 105, 105, 0.075)), url(../photoSource/landingMe.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    overflow-y: none;
+}
+
+}
+
+
+
+
+// medium devices
+
+@media (min-width: 768px) {
+        h1{
+            width: 100%;
+            font-size: 4em;
+            color: #000;
+            letter-spacing: 0.10em;
+        }
+
+        h3{
+            font-size: 50px;
+            letter-spacing: 0.10em;
+        }
+
+}
+    .hello{
+        font-weight: 700!important;
+        font-size: 180px;
+    }
+
+    // small devices
+    @media (max-width: 596px) {
+        .landing-bottom { 
+            display: none!important;
+        }
+    }
+
+    .fadeIn{
+        display: visible!important;
+        transition: 1000ms;
+    }
+
+    

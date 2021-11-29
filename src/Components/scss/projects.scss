@@ -1,0 +1,27 @@
+// .main-wrapper { 
+//     background:#f3f5ff !important;}
+.p-item{ 
+    transition: 200ms ease-in-out;
+}
+.p-item:hover{ 
+    transform: scale(1.04)!important;
+    -webkit-transition: transform 200ms!important;
+    transition: transform 200ms ease-in-out!important;
+    -moz-transition: transform 200ms ease-in-out!important;
+    
+}
+
+.header-text { 
+    font-size: 50px;
+    font-weight: bolder;
+    height: auto;
+}
+
+@media (max-width: 576px) {
+    .header{ 
+        font-size: 40px;
+    }
+    .lead{ 
+        display: none;
+    }
+}
