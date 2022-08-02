@@ -22,7 +22,7 @@ export default function About() {
 								<p className="lead">I am a 29 year old <span className="blockquote">self built</span> front end engineer with a power drive and self motivation to bring the customers ideas to life. 
 									With my positive, forward thinking mindset and attention to every detail, I only strive to deliver what can be my best performance 
 									with every project that I do. With that said, I am always learning and welcome the opportunity to work with you and continue to grow
-									my real work knowledge so that I can make the user & customer experience better with each new project. 
+									my real world knowledge so that I can make the user & customer experience better with each new project. 
 								</p>
 								<p className="h6 my-4" style={{fontWeight: 'bold'}}>MY DESIGN TOOLS</p>
 								<p>

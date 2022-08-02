@@ -54,23 +54,29 @@ h3{
 // medium devices
 
 @media (min-width: 768px) {
+    
         h1{
             width: 100%;
             font-size: 4em;
             color: #000;
             letter-spacing: 0.10em;
+                    
         }
 
         h3{
-            font-size: 50px;
+            font-size: 40px;
             letter-spacing: 0.10em;
         }
+        .hello{
+            font-weight: 700!important;
+            font-size: 125px;
+        }
+
+
+    
 
 }
-    .hello{
-        font-weight: 700!important;
-        font-size: 180px;
-    }
+  
 
     // small devices
     @media (max-width: 596px) {
@@ -83,5 +89,3 @@ h3{
         display: visible!important;
         transition: 1000ms;
     }
-
-    
