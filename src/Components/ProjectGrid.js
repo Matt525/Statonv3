@@ -3,7 +3,7 @@ import './scss/projectGrid.css';
 import 'aos/dist/aos.css';
 import rebg from './photoSource/statonre.png';
 import cryptobg from './photoSource/upCrypto.png'
-import bo from './photoSource/breakout.png'
+import bo from './photoSource/break-out.png'
 import pataTap from './photoSource/pata.png';
 import rgb from './photoSource/rgb.png';
 
