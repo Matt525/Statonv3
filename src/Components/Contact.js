@@ -2,15 +2,6 @@ import React, { useState } from 'react';
 
 
 const ContactForm = () => {
-  const [firstName, setFirstName] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
-
-  const handleSubmit = (event) => {
-    console.log(firstName,email,message);
-    alert("handleSubmit was called");
-    };
-
   return (
     <div>
       <div className="content">
@@ -35,7 +26,6 @@ const ContactForm = () => {
                               method="POST"
                               id="contactForm"
                               name="contact"
-                              onSubmit={handleSubmit}
                             >
                               <div className="row">
                                 <div className="m-1">
@@ -46,7 +36,6 @@ const ContactForm = () => {
                                     id="fname"
                                     placeholder="First name"
                                     value={firstName}
-                                    onChange={(e) => setFirstName(e.target.value)}
                                   />
                                 </div>
                                 <div className="m-1">
@@ -57,7 +46,6 @@ const ContactForm = () => {
                                     id="email"
                                     placeholder="Email"
                                     value={email}
-                                    onChange={(e) => setEmail(e.target.value)}
                                   />
                                 </div>
                               </div>
@@ -71,7 +59,6 @@ const ContactForm = () => {
                                     rows="7"
                                     placeholder="Write your message"
                                     value={message}
-                                    onChange={(e) => setMessage(e.target.value)}
                                   ></textarea>
                                 </div>
                               </div>
