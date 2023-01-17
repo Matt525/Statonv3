@@ -35,7 +35,6 @@ const ContactForm = () => {
                                     name="first_name"
                                     id="fname"
                                     placeholder="First name"
-                                    value={firstName}
                                   />
                                 </div>
                                 <div className="m-1">
@@ -45,7 +44,6 @@ const ContactForm = () => {
                                     name="email"
                                     id="email"
                                     placeholder="Email"
-                                    value={email}
                                   />
                                 </div>
                               </div>
@@ -58,7 +56,6 @@ const ContactForm = () => {
                                     cols="30"
                                     rows="7"
                                     placeholder="Write your message"
-                                    value={message}
                                   ></textarea>
                                 </div>
                               </div>
