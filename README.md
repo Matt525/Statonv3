@@ -1,4 +1,4 @@
-# HRMS Blueprint (React + Python Preview API)
+# PulseHR (React + Python Preview API)
 
 This project provides a modern, responsive preview app for a complete Human Resources Management System (HRMS).
 

@@ -95,8 +95,8 @@ function App() {
   return (
     <div className="hrms-app">
       <header className="hero">
-        <p className="eyebrow">HR Management System Blueprint</p>
-        <h1>Modern HRMS for the Full Employee Journey</h1>
+        <p className="eyebrow">PulseHR</p>
+        <h1>PulseHR: HR from Hire to Retire</h1>
         <p>
           A complete, mobile-friendly human resources platform built with a React frontend and a Python backend on
           Frappe.

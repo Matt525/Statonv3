@@ -100,5 +100,5 @@ class Handler(BaseHTTPRequestHandler):
 
 if __name__ == "__main__":
     server = ThreadingHTTPServer((HOST, PORT), Handler)
-    print(f"HRMS preview API running at http://{HOST}:{PORT}")
+    print(f"PulseHR preview API running at http://{HOST}:{PORT}")
     server.serve_forever()
